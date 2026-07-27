@@ -1,0 +1,14 @@
+{
+  "name": "cursortest",
+  "version": "1.0.0",
+  "description": "Simple Hello World app",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r public/* dist/",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
